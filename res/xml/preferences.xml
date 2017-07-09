@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="QRCode Color">
+        <ListPreference android:entries="@array/qrcodecolors" android:title="Barcode Color" android:key="qrcodecolor" android:entryValues="@array/colors" />
+        <ListPreference android:entries="@array/qrcodecolors" android:title="Background Color" android:key="qrcodebackgroundcolor" android:entryValues="@array/colors" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="General">
+        <CheckBoxPreference android:title="Auto-Complete" android:key="isautosugon" android:summary="Suggestion of Saved Networks" android:defaultValue="true" />
+        <CheckBoxPreference android:title="Save Networks" android:key="isautosaveon" android:summary="Auto-Save The Network's SSID and Pass when QRCode is generated" android:defaultValue="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

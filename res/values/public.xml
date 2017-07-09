@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public type="drawable" name="scanlogo" id="0x7f020000" />
+    <public type="drawable" name="wifilogo" id="0x7f020001" />
+    <public type="layout" name="fragment_home_screen_dummy" id="0x7f030000" />
+    <public type="layout" name="fullscreencode" id="0x7f030001" />
+    <public type="layout" name="generate" id="0x7f030002" />
+    <public type="layout" name="home_screen" id="0x7f030003" />
+    <public type="anim" name="slide_down" id="0x7f040000" />
+    <public type="anim" name="slide_down_from_middle" id="0x7f040001" />
+    <public type="anim" name="slide_up" id="0x7f040002" />
+    <public type="anim" name="slide_up_from_middle" id="0x7f040003" />
+    <public type="anim" name="stationary" id="0x7f040004" />
+    <public type="xml" name="preferences" id="0x7f050000" />
+    <public type="string" name="ga_trackingId" id="0x7f060000" />
+    <public type="string" name="app_name" id="0x7f060001" />
+    <public type="string" name="action_settings" id="0x7f060002" />
+    <public type="string" name="title_section1" id="0x7f060003" />
+    <public type="string" name="title_section2" id="0x7f060004" />
+    <public type="string" name="title_section3" id="0x7f060005" />
+    <public type="bool" name="ga_autoActivityTracking" id="0x7f070000" />
+    <public type="bool" name="ga_reportUncaughtExceptions" id="0x7f070001" />
+    <public type="integer" name="ga_dispatchPeriod" id="0x7f080000" />
+    <public type="dimen" name="activity_horizontal_margin" id="0x7f090000" />
+    <public type="dimen" name="activity_vertical_margin" id="0x7f090001" />
+    <public type="array" name="networksecurityarray" id="0x7f0a0000" />
+    <public type="array" name="colors" id="0x7f0a0001" />
+    <public type="array" name="qrcodecolors" id="0x7f0a0002" />
+    <public type="style" name="AppBaseTheme" id="0x7f0b0000" />
+    <public type="style" name="AppTheme" id="0x7f0b0001" />
+    <public type="menu" name="action_bar_share_menu" id="0x7f0c0000" />
+    <public type="id" name="section_label" id="0x7f0d0000" />
+    <public type="id" name="llParent" id="0x7f0d0001" />
+    <public type="id" name="ivCode" id="0x7f0d0002" />
+    <public type="id" name="etssid" id="0x7f0d0003" />
+    <public type="id" name="etpass" id="0x7f0d0004" />
+    <public type="id" name="spinner" id="0x7f0d0005" />
+    <public type="id" name="cbShowPass" id="0x7f0d0006" />
+    <public type="id" name="bcreate" id="0x7f0d0007" />
+    <public type="id" name="imageView" id="0x7f0d0008" />
+    <public type="id" name="llShowPass" id="0x7f0d0009" />
+    <public type="id" name="pager" id="0x7f0d000a" />
+    <public type="id" name="menu_item_scan" id="0x7f0d000b" />
+    <public type="id" name="menu_item_share" id="0x7f0d000c" />
+    <public type="id" name="menu_item_settings" id="0x7f0d000d" />
+    <public type="id" name="menu_item_clear_networks" id="0x7f0d000e" />
+</resources>

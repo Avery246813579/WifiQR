@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="scanlogo">res/drawable-mdpi/scanlogo.png</drawable>
+    <drawable name="scanlogo">res/drawable-hdpi/scanlogo.png</drawable>
+    <drawable name="scanlogo">res/drawable-xhdpi/scanlogo.png</drawable>
+    <drawable name="scanlogo">res/drawable-xxhdpi/scanlogo.png</drawable>
+    <drawable name="wifilogo">res/drawable-mdpi/wifilogo.png</drawable>
+    <drawable name="wifilogo">res/drawable-hdpi/wifilogo.png</drawable>
+    <drawable name="wifilogo">res/drawable-xhdpi/wifilogo.png</drawable>
+</resources>

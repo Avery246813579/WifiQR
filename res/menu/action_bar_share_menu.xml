@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/scanlogo" android:id="@+id/menu_item_scan" android:title="Scan" android:showAsAction="ifRoom" />
+    <item android:id="@+id/menu_item_share" android:title="Share" android:showAsAction="always" android:actionProviderClass="android.widget.ShareActionProvider" />
+    <item android:id="@+id/menu_item_settings" android:title="Settings" android:showAsAction="UNKNOWN_DATA_0x0" />
+    <item android:id="@+id/menu_item_clear_networks" android:title="Clear Saved Networks" android:showAsAction="UNKNOWN_DATA_0x0" />
+</menu>

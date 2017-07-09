@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x8c01">
+        <AutoCompleteTextView android:id="@+id/etssid" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2d01" android:hint="Network Name (SSID)" />
+        <EditText android:id="@+id/etpass" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2d01" android:hint="Network Password" android:layout_below="@+id/etssid" android:inputType="text|textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textImeMultiLine|textNoSuggestions|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress|textPassword|textVisiblePassword|textWebEditText|textFilter|textPhonetic|textWebEmailAddress|textWebPassword|phone" />
+        <Spinner android:entries="@array/networksecurityarray" android:id="@+id/spinner" android:layout_width="UNKNOWN_DATA_0x6e01" android:layout_height="wrap_content" android:layout_below="@+id/etpass" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="100.0" android:layout_toRightOf="@+id/spinner" android:layout_below="@+id/etpass">
+            <CheckBox android:id="@+id/cbShowPass" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="Show Pass" android:layout_weight="10.0" />
+            <Button android:id="@+id/bcreate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Create" android:layout_weight="90.0" />
+        </LinearLayout>
+    </RelativeLayout>
+    <ImageView android:id="@+id/imageView" android:background="#dbdbdb" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="match_parent" />
+</LinearLayout>

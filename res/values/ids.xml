@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="section_label">false</item>
+    <item type="id" name="llParent">false</item>
+    <item type="id" name="ivCode">false</item>
+    <item type="id" name="etssid">false</item>
+    <item type="id" name="etpass">false</item>
+    <item type="id" name="spinner">false</item>
+    <item type="id" name="cbShowPass">false</item>
+    <item type="id" name="bcreate">false</item>
+    <item type="id" name="imageView">false</item>
+    <item type="id" name="llShowPass">false</item>
+    <item type="id" name="pager">false</item>
+    <item type="id" name="menu_item_scan">false</item>
+    <item type="id" name="menu_item_share">false</item>
+    <item type="id" name="menu_item_settings">false</item>
+    <item type="id" name="menu_item_clear_networks">false</item>
+</resources>
